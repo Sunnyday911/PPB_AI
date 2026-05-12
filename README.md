@@ -1,17 +1,10 @@
-# flutter_ai
+# Kicau mania detector
+This app detect hand movement where if the hand movement indicate the hand movement of kicau mania it will automatically play kicau mania video
 
-A new Flutter project.
 
-## Getting Started
+<img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/e51d4e20-7bac-490c-990b-88dcbe3c26a2" />
 
-This project is a starting point for a Flutter application.
+<img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/820cd7cb-690c-4b84-89ab-47565588da48" />
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
