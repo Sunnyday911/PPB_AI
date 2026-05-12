@@ -43,7 +43,7 @@ class _GestureKicauAppState extends State<GestureKicauApp> {
   }
 
   void _initVideo() {
-    _VideoController = VideoPlayerController.asset("/assets/kicaau_mania.mp4")
+    _VideoController = VideoPlayerController.asset("assets/kicau_mania.mp4")
       ..initialize()
           .then((_) {
             setState(() {});
@@ -193,7 +193,7 @@ class _GestureKicauAppState extends State<GestureKicauApp> {
 
   @override
   Widget build(BuildContext context) {
-    if (_CameraController == null || _CameraController!.value.isInitialized) {
+    if (_CameraController == null || !_CameraController!.value.isInitialized) {
       return const Scaffold(body: Center(child: CircularProgressIndicator()));
     }
 
